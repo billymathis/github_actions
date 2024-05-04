@@ -26,5 +26,5 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: npm test
+    - run: sudo su
     - run: pm2 restart myapp
-    - run: systemctl restart nginx.service
