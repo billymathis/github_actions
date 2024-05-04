@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('Hello World Deployed through Github Actions!!!');
+  res.send('Latest');
 });
 
 module.exports = app;  
