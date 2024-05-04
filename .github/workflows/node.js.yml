@@ -27,4 +27,4 @@ jobs:
     - run: npm ci
     - run: npm test
     - run: pm2 restart myapp
-    -run: systemctl restart nginx.service
+    - run: systemctl restart nginx.service
