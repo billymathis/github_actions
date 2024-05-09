@@ -1,0 +1,16 @@
+language: node_js
+node_js:
+  - "18"
+
+# Use the cache to speed up builds
+cache:
+  directories:
+    - "node_modules"
+
+# Install dependencies
+install:
+  - npm install
+
+# Run the test script defined in package.json
+script:
+  - npm test
